@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	IO
 %define	pnam	File-Multi
-%include	/usr/lib/rpm/macros.perl
 Summary:	IO-File-Multi perl module
 Summary(pl):	Modu³ perla IO-File-Multi
 Name:		perl-IO-File-Multi
 Version:	1.02
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ IO-File-Multi umo¿liwia drukowanie do wielu uchwytów pliku
 jednocze¶nie przy jednorazowym wywo³aniu funkcji print() lub printf().
 
 %prep
-%setup -q -n IO-File-Multi-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
