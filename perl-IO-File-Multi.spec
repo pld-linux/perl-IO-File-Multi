@@ -26,7 +26,7 @@ jednocze¶nie przy jednorazowym wywo³aniu funkcji print() lub printf().
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
