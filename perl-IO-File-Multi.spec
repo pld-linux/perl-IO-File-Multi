@@ -28,7 +28,7 @@ jednocze¶nie przy jednorazowym wywo³aniu funkcji print() lub printf().
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
