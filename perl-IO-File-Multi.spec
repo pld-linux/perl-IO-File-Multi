@@ -13,7 +13,7 @@ BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 Obsoletes:	perl-FileHandle-Multi
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 IO-File-Multi - Print to multiple filehandles with one output call.
