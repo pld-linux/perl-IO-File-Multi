@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	IO
 %define	pnam	File-Multi
-Summary:	IO-File-Multi perl module
-Summary(pl):	Modu³ perla IO-File-Multi
+Summary:	IO::File::Multi perl module
+Summary(pl):	Modu³ perla IO::File::Multi
 Name:		perl-IO-File-Multi
 Version:	1.02
 Release:	8
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-IO-File-Multi - Print to multiple filehandles with one output call.
+IO::File::Multi - Print to multiple filehandles with one output call.
 
 %description -l pl
-IO-File-Multi umo¿liwia drukowanie do wielu uchwytów pliku
+IO::File::Multi umo¿liwia drukowanie do wielu uchwytów pliku
 jednocze¶nie przy jednorazowym wywo³aniu funkcji print() lub printf().
 
 %prep
