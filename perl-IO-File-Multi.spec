@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla IO-File-Multi
 Name:		perl-IO-File-Multi
 Version:	1.02
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/IO/IO-File-Multi-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/IO/IO-File-Multi-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 IO-File-Multi - Print to multiple filehandles with one output call.
 
 %description -l pl
-IO-File-Multi umo¿liwia drukowanie do wielu uchwytów pliku jednocze¶nie
-przy jednorazowym wywo³aniu funkcji print() lub printf().
+IO-File-Multi umo¿liwia drukowanie do wielu uchwytów pliku
+jednocze¶nie przy jednorazowym wywo³aniu funkcji print() lub printf().
 
 %prep
 %setup -q -n IO-File-Multi-%{version}
