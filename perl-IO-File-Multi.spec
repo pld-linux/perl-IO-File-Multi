@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	IO
-%define	pnam	File-Multi
+%define		pdir	IO
+%define		pnam	File-Multi
 Summary:	IO::File::Multi perl module
 Summary(pl):	Modu³ perla IO::File::Multi
 Name:		perl-IO-File-Multi
