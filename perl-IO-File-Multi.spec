@@ -3,7 +3,7 @@ Summary:	IO-File-Multi perl module
 Summary(pl):	Modu³ perla IO-File-Multi
 Name:		perl-IO-File-Multi
 Version:	1.02
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -12,6 +12,7 @@ Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/IO/IO-File-Multi-%{versio
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 Obsoletes:	perl-FileHandle-Multi
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
