@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla IO::File::Multi
 Name:		perl-IO-File-Multi
 Version:	1.02
 Release:	10
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	7ad39ab26c2b3554d883b896ab7e18cc
