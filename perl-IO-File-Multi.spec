@@ -3,7 +3,7 @@ Summary:	IO-File-Multi perl module
 Summary(pl):	Modu³ perla IO-File-Multi
 Name:		perl-IO-File-Multi
 Version:	1.02
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
