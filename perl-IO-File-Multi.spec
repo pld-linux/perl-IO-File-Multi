@@ -5,12 +5,12 @@ Summary:	IO::File::Multi perl module
 Summary(pl):	Modu³ perla IO::File::Multi
 Name:		perl-IO-File-Multi
 Version:	1.02
-Release:	9
+Release:	10
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-FileHandle-Multi
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -26,7 +26,8 @@ jednocze¶nie przy jednorazowym wywo³aniu funkcji print() lub printf().
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -40,6 +41,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%dir %{perl_sitelib}/IO/File
-%{perl_sitelib}/IO/File/Multi.pm
+%dir %{perl_vendorlib}/IO/File
+%{perl_vendorlib}/IO/File/Multi.pm
 %{_mandir}/man3/*
