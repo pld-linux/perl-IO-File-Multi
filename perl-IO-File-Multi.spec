@@ -6,7 +6,7 @@
 %define		pdir	IO
 %define		pnam	File-Multi
 Summary:	IO::File::Multi perl module
-Summary(pl):	Modu≥ perla IO::File::Multi
+Summary(pl.UTF-8):   Modu≈Ç perla IO::File::Multi
 Name:		perl-IO-File-Multi
 Version:	1.02
 Release:	11
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 IO::File::Multi - Print to multiple filehandles with one output call.
 
-%description -l pl
-IO::File::Multi umoøliwia pisanie do wielu uchwytÛw pliku
-jednocze∂nie przy jednorazowym wywo≥aniu funkcji print() lub printf().
+%description -l pl.UTF-8
+IO::File::Multi umo≈ºliwia pisanie do wielu uchwyt√≥w pliku
+jednocze≈õnie przy jednorazowym wywo≈Çaniu funkcji print() lub printf().
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
