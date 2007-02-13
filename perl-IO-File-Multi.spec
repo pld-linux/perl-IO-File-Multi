@@ -6,7 +6,7 @@
 %define		pdir	IO
 %define		pnam	File-Multi
 Summary:	IO::File::Multi perl module
-Summary(pl.UTF-8):   Moduł perla IO::File::Multi
+Summary(pl.UTF-8):	Moduł perla IO::File::Multi
 Name:		perl-IO-File-Multi
 Version:	1.02
 Release:	11
