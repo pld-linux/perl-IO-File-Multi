@@ -9,7 +9,7 @@ Summary:	IO::File::Multi perl module
 Summary(pl.UTF-8):	Moduł perla IO::File::Multi
 Name:		perl-IO-File-Multi
 Version:	1.02
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
