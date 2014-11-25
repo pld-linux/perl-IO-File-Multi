@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	IO
 %define		pnam	File-Multi
+%include	/usr/lib/rpm/macros.perl
 Summary:	IO::File::Multi perl module
 Summary(pl.UTF-8):	Moduł perla IO::File::Multi
 Name:		perl-IO-File-Multi
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	7ad39ab26c2b3554d883b896ab7e18cc
+URL:		http://search.cpan.org/dist/IO-File-Multi/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-FileHandle-Multi
@@ -25,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 IO::File::Multi - Print to multiple filehandles with one output call.
 
 %description -l pl.UTF-8
-IO::File::Multi umożliwia pisanie do wielu uchwytów pliku
-jednocześnie przy jednorazowym wywołaniu funkcji print() lub printf().
+IO::File::Multi umożliwia pisanie do wielu uchwytów pliku jednocześnie
+przy jednorazowym wywołaniu funkcji print() lub printf().
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
