@@ -4,7 +4,6 @@
 
 %define		pdir	IO
 %define		pnam	File-Multi
-%include	/usr/lib/rpm/macros.perl
 Summary:	IO::File::Multi perl module
 Summary(pl.UTF-8):	Moduł perla IO::File::Multi
 Name:		perl-IO-File-Multi
